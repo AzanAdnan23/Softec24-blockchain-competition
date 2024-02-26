@@ -1,66 +1,33 @@
-## Foundry
+# Blockchain Competition
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+## Welcome to Softec 2024's Blockchain Development Competition!
 
-Foundry consists of:
+The zakat sector faces numerous challenges, including transparency issues, distribution inefficiencies, and trust concerns. Your mission is to revolutionize the charitable landscape by creating a decentralized Zakat system using blockchain technology.
+In this competition, you are tasked with developing a smart contract-based solution that tackles the challenges in traditional Zakat systems, ensuring transparency, efficiency, and trust in the distribution of charitable funds.
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+## Key Functionalities of Your Smart Contract:
 
-## Documentation
+## Contributing Zakat:
 
-https://book.getfoundry.sh/
+Develop a mechanism for donors to contribute Zakat funds to the smart contract using cryptocurrency securely.
+Zakat Distribution:
+Enable the fair and transparent distribution of Zakat funds to eligible recipients, ensuring traceable records of fund utilization.
 
-## Usage
+## Refund Mechanism:
 
-### Build
+Include a secure refund mechanism to handle cases where Zakat funds cannot be allocated, ensuring donor confidence.
 
-```shell
-$ forge build
-```
+## Conditional Giving:
 
-### Test
+Create a secure escrow system to hold Zakat funds until predefined conditions are met, ensuring fair and transparent transactions. This is part of the zakat distribution mechanism.
 
-```shell
-$ forge test
-```
+## Decentralized:
 
-### Format
+Ensure your contract is decentralized by implementing a voting system for key functionalities such as adding eligible people, etc.
 
-```shell
-$ forge fmt
-```
+## Important Instructions:
 
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+: Yous marks ee award of integrating FrontEnd.
+• Avoid using Loops
+• Make assumptions wherever required
+• You can use the documentation but the code generators(such as GitHub CoPilot, ChatGPT, Gemini) must not be used
