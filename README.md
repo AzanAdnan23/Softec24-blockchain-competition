@@ -27,7 +27,7 @@ Ensure your contract is decentralized by implementing a voting system for key fu
 
 ## Important Instructions:
 
-: Yous marks ee award of integrating FrontEnd.
+• Bonus marks will be awarded for integrating FrontEnd.
 • Avoid using Loops
 • Make assumptions wherever required
 • You can use the documentation but the code generators(such as GitHub CoPilot, ChatGPT, Gemini) must not be used
